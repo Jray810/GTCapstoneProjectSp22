@@ -222,3 +222,52 @@ section {
 .text-center {
     text-align: center;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+td a {
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
+.foot {
+    background-color: lemonchiffon;
+    scroll-snap-align: end;
+    min-height: auto;
+    padding: 0;
+}
+
+.me-label {
+    color: white;
+    background-color: lightseagreen;
+    padding: 4px;
+    border-radius: 25%;
+}
+
+.ece-label {
+    color: white;
+    background-color: orange;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+.res-warn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 1%;
+}
