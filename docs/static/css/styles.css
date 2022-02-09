@@ -59,10 +59,15 @@ a {
 }
 
 header {
-    position:absolute;
-    display:flex;
-    width:100%;
-    z-index:10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
 }
 
 header a {
@@ -270,4 +275,42 @@ td a {
     bottom: 0;
     right: 0;
     padding: 0 1%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    margin-left:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight:800;
+    font-size:2rem;
+    line-height:auto;
+    text-decoration:none;
+    color:black;
+}
+
+.header-secondary-link {
+    font-weight:800;
+    font-size:1rem;
+    line-height:auto;
+    text-decoration:none;
+    color:black;
+    margin: 0;
+    margin-right:30px;
+}
+
+.header-logo {
+    height:50px;
+    padding-right:10px;
+}
+
+/* Give header shadow */
+.scroll-header {
+    box-shadow: 0 4px 4px hsla(0, 0%, 4%, .3);
+    background-color: #f8f8f8;
 }
