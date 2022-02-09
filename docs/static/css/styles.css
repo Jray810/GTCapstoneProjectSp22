@@ -49,10 +49,6 @@ html {
     color: #878a8f;
 }
 
-body {
-    overflow: hidden;
-}
-
 a {
     text-decoration:none;
     color:black;
@@ -68,6 +64,7 @@ header {
     padding: 0;
     margin: 0;
     display: block;
+    transition: .4s;
 }
 
 header a {
@@ -81,16 +78,6 @@ header div {
     width: 100%;
     display: flex;
     align-items: center;
-}
-
-.container {
-    max-height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
-
-.snapper {
-    scroll-snap-align: start;
 }
 
 section {
