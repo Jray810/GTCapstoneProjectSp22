@@ -54,6 +54,11 @@ a {
     color:black;
 }
 
+.page-link {
+    color: darkslategrey;
+    text-decoration: underline;
+}
+
 header {
     position: fixed;
     top: 0;
